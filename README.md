@@ -3,6 +3,7 @@
 <ul>
 <li>Need Eclipse</li>
 <li>Need Maven and my pom file for reflections library</li>
+<li>You'll notice I talk to myself a lot in the comments, don't mind me...</li>
 </ul>
 
 # Summary
