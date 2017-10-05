@@ -29,7 +29,7 @@ Simple Java program that prints to console.
 <li>ServerConstants.java</li>
 <li>Maybe we want our horse to have food, oxygen, water, but not moonrocks so we only include those three classes</li>
 <li>Because we're not using database, final data within classes, we will be using static preconfigured data</li>
-<ul>
+</ul>
 
 	DIET.add(new Object[] {new Food(3), new Oxygen(18), new Water(2), OrganismType.HORSE});
 	
