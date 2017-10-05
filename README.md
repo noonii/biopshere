@@ -29,22 +29,22 @@ Simple Java program that prints to console.
 <li>It is necessary to include the empty constructor because of reflections.</li>
 </ul>
 
-public class MoonRocks extends ResourceImpl {
+	public class MoonRocks extends ResourceImpl {
 	
-	public MoonRocks() {
-		
-	}
+		public MoonRocks() {
 
-	/**
-	 * Initialize with amount of Water the organism consumes per day
-	 * @param amount
-	 */
-	public MoonRocks(int amount) {
-		setAmount(amount);
+		}
+
+		/**
+		 * Initialize with amount of Water the organism consumes per day
+		 * @param amount
+		 */
+		public MoonRocks(int amount) {
+			setAmount(amount);
+		}
+
+		@Override
+		public String toString() {
+			return this.getClass().getSimpleName() + " x " + getAmount();
+		}
 	}
-	
-	@Override
-	public String toString() {
-		return this.getClass().getSimpleName() + " x " + getAmount();
-	}
-}
