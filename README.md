@@ -10,7 +10,7 @@
 Simple Java program that prints to console. 
 <ul>
 <li>Loads classes dynamically from packages without knowing names</li>
-<li>Data structures, object manipulation, polymorphism, interfaces, enums, instances, reflections, and more.</li>
+<li>Data structures, object manipulation, polymorphism, interfaces, enums, instances, reflections, inheritance, and more.</li>
 </ul>
 
 # Scalability
