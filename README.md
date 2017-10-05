@@ -36,7 +36,7 @@ Simple Java program that prints to console.
 		}
 
 		/**
-		 * Initialize with amount of Water the organism consumes per day
+		 * Initialize with amount of MoonRocks the organism consumes per day
 		 * @param amount
 		 */
 		public MoonRocks(int amount) {
